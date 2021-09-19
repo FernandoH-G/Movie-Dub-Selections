@@ -6,8 +6,10 @@ function App() {
     <div className="app">
       <Header />
       <div className="search">
-        <input type="search" id="search" placeholder="Thor: Ragnarok" />
-        <button>Search</button>
+        <form>
+          <input type="search" id="search" placeholder="Thor: Ragnarok" required />
+          <button>Search</button>
+        </form>
       </div>
     </div>
     // <div className="App">
