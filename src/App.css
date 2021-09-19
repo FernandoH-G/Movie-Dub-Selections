@@ -1,8 +1,6 @@
 body {
     margin: 0;
 }
-.app {
-}
 .header {
     display: flex;
     align-items: center;
